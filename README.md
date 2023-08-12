@@ -7,12 +7,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>UseIT - Food Waste Saving</h1>
-    </header>
     <main>
+        <h1 class="title">UseIT</h1>
+        <p class="description">Don't Let Food Go to Waste! Discover creative recipes and utilize leftovers or available ingredients using our search bar below.</p>
         <section class="search-section">
-            <h2>Find Recipes</h2>
             <input type="text" id="ingredientsInput" placeholder="Enter your ingredients">
             <button id="searchButton">Search</button>
         </section>
